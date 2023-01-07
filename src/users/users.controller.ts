@@ -17,7 +17,7 @@ export class UsersController {
         website: faker.internet.domainName(),
         company: faker.company.name(),
       };
-      console.log(user);
+
       return user;
     }
     while (USERS.length < 20) {
